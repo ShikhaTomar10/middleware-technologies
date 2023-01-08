@@ -31,3 +31,10 @@ docker-compose up
 
 docker login
 
+docker tag mysql:5.7 shikhatomar181910/mysql:5.7
+docker push  shikhatomar181910/mysql:5.7
+
+
+docker tag hftbackendapp:dockerfile shikhatomar181910/hftbackendapp
+docker push shikhatomar181910/hftbackendapp
+
